@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/songart"
+        android:layout_toRightOf="@+id/songart" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="190dp"
+            android:layout_height="34dp"
+            android:layout_weight="0.29"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#d3d3d3"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="53dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_delete" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/songart"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/songart" >
+
+        <ImageButton
+            android:id="@+id/playprev"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_media_previous" />
+
+        <ImageButton
+            android:id="@+id/playpause"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.27"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/playnext"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="0.78"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_media_next" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/songart"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="false"
+        android:src="@drawable/unnameds" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="share">Share</string>
+    <string name="Sensor">Sensor</string>
+    <string name="Shuffle">Shuffle</string>
+    <string name="Repeat">Repeat</string>
+    <string name="CreatePlaylist">Create New Playlist</string>
+    <string name="AddToPlaylist">Add To Existing Playlist</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Songs</item>
+        <item >Playlists</item>
+        <item >Albums</item>
+        <item >Artists</item>
+        <item >Feedback</item>
+        <item >Developer</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/songs</item>
+        <item>@drawable/playlists</item>
+        <item>@drawable/albums</item>
+        <item>@drawable/artists</item>
+        <item>@drawable/feedback</item>
+        <item>@drawable/info</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="id1">id1</string>
+    <string name="id2">id2</string>
+
+</resources>
+

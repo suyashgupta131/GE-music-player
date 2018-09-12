@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item 
+        android:id="@+id/sensor" 
+        android:title="@string/Sensor"
+        app:showAsAction="always" android:visible="true" android:checkable="true" android:icon="@drawable/sensorselector"
+        >       
+    </item>
+     <item 
+        android:id="@+id/shuffle" 
+        android:title="@string/Shuffle"
+        app:showAsAction="always" android:visible="true" android:checked="true" android:icon="@drawable/shuffleselector">
+       </item>
+        <item 
+        android:id="@+id/repeat" 
+        android:title="@string/Repeat"
+        app:showAsAction="always" android:visible="true" android:checked="true" android:icon="@drawable/repeatselector">
+       </item>
+    
+
+</menu>

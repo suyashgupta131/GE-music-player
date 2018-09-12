@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_above="@id/title"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dj"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#803c8af0"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:singleLine="true"
+        android:text="MUSIQUE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fcfcfb"
+        android:textSize="75dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/progress_elements_container"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/building_library_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="building_music_library"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fcfcfb"/>
+
+        <ProgressBar
+            android:id="@+id/building_library_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/building_library_task"
+            android:layout_alignRight="@+id/building_library_task"
+            android:layout_below="@+id/building_library_task"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginRight="-30dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
